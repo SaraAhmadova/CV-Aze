@@ -185,7 +185,7 @@ label span {
 }
 
 .box .main .header .basic-info div.info-text .text-box:first-child, .box .main .header .basic-info div.info-text .text-box:nth-child(3) {
-  width: 53%;
+  width: 50%;
 }
 
 .box .main .header .basic-info div.info-text .text-box:nth-child(2), .box .main .header .basic-info div.info-text .text-box:last-child {
