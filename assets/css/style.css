@@ -189,7 +189,7 @@ label span {
 }
 
 .box .main .header .basic-info div.info-text .text-box:nth-child(2), .box .main .header .basic-info div.info-text .text-box:last-child {
-  width: 47%;
+  width: 50%;
 }
 
 .box .main .header .basic-info div span {
