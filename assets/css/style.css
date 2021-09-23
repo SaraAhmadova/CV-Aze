@@ -108,8 +108,7 @@ label span {
 }
 
 .box .main {
-  width: 595px;
-  height: 842px;
+  width: 695px;
   background-color: #ffffff;
   padding: 1rem 1.5rem 1.5rem;
   margin: auto;
@@ -122,14 +121,14 @@ label span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1rem 1rem 0;
+  padding: 1rem 1rem;
 }
 
 .box .main .header img {
   width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin: 1rem;
+  height: 160px;
+  border-radius: 10%;
+  margin: 1rem 2rem 1rem 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -156,7 +155,7 @@ label span {
 
 .box .main .header .basic-info .title h3 {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 26px;
   letter-spacing: 2px;
   padding: 0.2rem 0rem;
 }
@@ -193,7 +192,7 @@ label span {
 
 .box .main .header .basic-info div span {
   color: rgba(62, 58, 58, 0.623);
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .box .main .header .basic-info div span a {
@@ -213,6 +212,10 @@ label span {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.box .main .bottom .info-section {
+  margin-bottom: 2rem;
 }
 
 .box .main .bottom .info-section.left {
@@ -276,7 +279,7 @@ label span {
 }
 
 .box .main .bottom .info-section .item.lang-skill .text h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   padding-bottom: 5px;
 }
@@ -333,18 +336,21 @@ label span {
 
 .box .main .bottom .info-section .item h4 {
   color: #36abce;
+  font-size: 18px;
 }
 
 .box .main .bottom .info-section .item h5 {
   color: #161515;
+  font-size: 16px;
 }
 
 .box .main .bottom .info-section .item h6 {
   color: #323438;
+  font-size: 14px;
 }
 
 .box .main .bottom .info-section .item .descrp {
-  font-size: 13px;
+  font-size: 18px;
   margin: 4px 0;
   color: #464551;
 }
@@ -417,7 +423,7 @@ label span {
 }
 
 .item.projects a {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .item.projects h5 {
@@ -451,7 +457,7 @@ label span {
 }
 
 .item .descrp {
-  font-size: 13px;
+  font-size: 18px;
   margin: 4px 0;
   color: #464551;
 }
@@ -483,7 +489,7 @@ label span {
     width: 100% !important;
   }
   .box .main .header .basic-info .info-text .text-box span {
-    font-size: 11px;
+    font-size: 16px;
   }
   .box .main .bottom {
     -webkit-box-orient: vertical;

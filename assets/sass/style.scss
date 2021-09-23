@@ -98,8 +98,8 @@ label {
   justify-content: center;
 
   .main {
-    width: 595px;
-    height: 842px;
+    width: 695px;
+    // height: 842px;
     background-color: $clr5;
     padding: 1rem 1.5rem 1.5rem;
     margin: auto;
@@ -107,13 +107,13 @@ label {
     .header {
       display: flex;
       justify-content: center;
-      padding: 1rem 1rem 0;
+      padding: 1rem 1rem;
 
       img {
         width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        margin: 1rem;
+        height: 160px;
+        border-radius: 10%;
+        margin: 1rem 2rem 1rem 0;
         object-fit: cover;
       }
 
@@ -132,7 +132,7 @@ label {
         .title {
           h3 {
             font-weight: 600;
-            font-size: 22px;
+            font-size: 26px;
             letter-spacing: 2px;
             padding: 0.2rem 0rem;
           }
@@ -168,7 +168,7 @@ label {
             }
 
             color: $clr7;
-            font-size: 12px;
+            font-size: 15px;
           }
 
           p {
@@ -185,6 +185,7 @@ label {
       justify-content: space-around;
 
       .info-section {
+        margin-bottom: 2rem;
         &.left {
           width: 48%;
         }
@@ -240,7 +241,7 @@ label {
             .text {
               width: 35%;
               h4 {
-                font-size: 14px;
+                font-size: 16px;
                 color: #000;
                 // border-bottom: 1px dashed #636363;
                 padding-bottom: 5px;
@@ -307,18 +308,21 @@ label {
 
           h4 {
             color: $clr2;
+            font-size: 18px;
           }
 
           h5 {
             color: $clr1;
+            font-size: 16px;
           }
 
           h6 {
             color: $clr4;
+            font-size: 14px;
           }
 
           .descrp {
-            font-size: 13px;
+            font-size: 18px;
             margin: 4px 0;
             color: $clr3;
           }
@@ -377,7 +381,7 @@ label {
     }
 
     a {
-      font-size: 16px;
+      font-size: 18px;
     }
     h5 {
       font-size: 20px;
@@ -412,7 +416,7 @@ label {
   }
 
   .descrp {
-    font-size: 13px;
+    font-size: 18px;
     margin: 4px 0;
     color: $clr3;
   }
@@ -441,7 +445,7 @@ label {
               width: 100% !important;
 
               span {
-                font-size: 11px;
+                font-size: 16px;
               }
             }
           }
