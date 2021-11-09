@@ -48,7 +48,7 @@ ul li {
 }
 
 a {
-  color: #36abce;
+  color: #0029dd;
 }
 
 hr {
@@ -109,7 +109,8 @@ label span {
 }
 
 .box .main {
-  width: 695px;
+  width: 595px;
+  height: 842px;
   background-color: #ffffff;
   padding: 1rem 1.5rem 1.5rem;
   margin: auto;
@@ -122,13 +123,12 @@ label span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 0;
 }
 
 .box .main .header img {
-  width: 120px;
-  height: 160px;
-  border-radius: 10%;
+  height: 120px;
+  border-radius: 10px;
   margin: 1rem 2rem 1rem 0;
   -o-object-fit: cover;
      object-fit: cover;
@@ -151,12 +151,12 @@ label span {
 .box .main .header .basic-info h4 {
   letter-spacing: 2px;
   font-weight: 400;
-  color: #36abce;
+  color: #0029dd;
 }
 
 .box .main .header .basic-info .title h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 22px;
   letter-spacing: 2px;
   padding: 0.2rem 0rem;
 }
@@ -184,16 +184,16 @@ label span {
 }
 
 .box .main .header .basic-info div.info-text .text-box:first-child, .box .main .header .basic-info div.info-text .text-box:nth-child(3) {
-  width: 52%;
+  width: 53%;
 }
 
 .box .main .header .basic-info div.info-text .text-box:nth-child(2), .box .main .header .basic-info div.info-text .text-box:last-child {
-  width: 48%;
+  width: 47%;
 }
 
 .box .main .header .basic-info div span {
   color: rgba(62, 58, 58, 0.623);
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .box .main .header .basic-info div span a {
@@ -215,10 +215,6 @@ label span {
       justify-content: space-around;
 }
 
-.box .main .bottom .info-section {
-  margin-bottom: 2rem;
-}
-
 .box .main .bottom .info-section.left {
   width: 48%;
 }
@@ -230,8 +226,8 @@ label span {
 .box .main .bottom .info-section h3 {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #1c85a9;
-  border-bottom: 2px solid #1c85a9;
+  color: #0400dd;
+  border-bottom: 2px solid #0400dd;
   padding-bottom: 4px;
   margin-bottom: 10px;
 }
@@ -280,7 +276,7 @@ label span {
 }
 
 .box .main .bottom .info-section .item.lang-skill .text h4 {
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
   padding-bottom: 5px;
 }
@@ -299,12 +295,12 @@ label span {
   width: 15px;
   height: 15px;
   margin-right: 7px;
-  background-color: #86daf3a6;
+  background-color: #0029dd63;
   border-radius: 50%;
 }
 
 .box .main .bottom .info-section .item.lang-skill ul li.filled {
-  background-color: #5bbedc;
+  background-color: #0029dd;
 }
 
 .box .main .bottom .info-section .item.skills.progs h5 {
@@ -336,22 +332,19 @@ label span {
 }
 
 .box .main .bottom .info-section .item h4 {
-  color: #36abce;
-  font-size: 18px;
+  color: #0029dd;
 }
 
 .box .main .bottom .info-section .item h5 {
   color: #161515;
-  font-size: 16px;
 }
 
 .box .main .bottom .info-section .item h6 {
   color: #323438;
-  font-size: 14px;
 }
 
 .box .main .bottom .info-section .item .descrp {
-  font-size: 18px;
+  font-size: 13px;
   margin: 4px 0;
   color: #464551;
 }
@@ -424,7 +417,7 @@ label span {
 }
 
 .item.projects a {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .item.projects h5 {
@@ -446,7 +439,7 @@ label span {
 }
 
 .item h4 {
-  color: #36abce;
+  color: #0029dd;
 }
 
 .item h5 {
@@ -458,9 +451,13 @@ label span {
 }
 
 .item .descrp {
-  font-size: 18px;
+  font-size: 13px;
   margin: 4px 0;
   color: #464551;
+}
+
+#proj-body a {
+  color: #5bbedc;
 }
 
 @media screen and (max-width: 676px) {
@@ -490,7 +487,7 @@ label span {
     width: 100% !important;
   }
   .box .main .header .basic-info .info-text .text-box span {
-    font-size: 16px;
+    font-size: 11px;
   }
   .box .main .bottom {
     -webkit-box-orient: vertical;

@@ -98,8 +98,8 @@ label {
   justify-content: center;
 
   .main {
-    width: 695px;
-    // height: 842px;
+    width: 595px;
+    height: 842px;
     background-color: $clr5;
     padding: 1rem 1.5rem 1.5rem;
     margin: auto;
@@ -107,12 +107,12 @@ label {
     .header {
       display: flex;
       justify-content: center;
-      padding: 1rem 1rem;
+      padding: 1rem 1rem 0;
 
       img {
-        width: 120px;
-        height: 160px;
-        border-radius: 10%;
+        // width: 120px;
+        height: 120px;
+        border-radius: 10px;
         margin: 1rem 2rem 1rem 0;
         object-fit: cover;
       }
@@ -132,7 +132,7 @@ label {
         .title {
           h3 {
             font-weight: 600;
-            font-size: 26px;
+            font-size: 22px;
             letter-spacing: 2px;
             padding: 0.2rem 0rem;
           }
@@ -151,12 +151,12 @@ label {
 
               &:first-child,
               &:nth-child(3) {
-                width: 52%;
+                width: 53%;
               }
 
               &:nth-child(2),
               &:last-child {
-                width: 48%;
+                width: 47%;
               }
             }
           }
@@ -168,7 +168,7 @@ label {
             }
 
             color: $clr7;
-            font-size: 15px;
+            font-size: 12px;
           }
 
           p {
@@ -185,7 +185,6 @@ label {
       justify-content: space-around;
 
       .info-section {
-        margin-bottom: 2rem;
         &.left {
           width: 48%;
         }
@@ -241,7 +240,7 @@ label {
             .text {
               width: 35%;
               h4 {
-                font-size: 16px;
+                font-size: 14px;
                 color: #000;
                 // border-bottom: 1px dashed #636363;
                 padding-bottom: 5px;
@@ -260,11 +259,11 @@ label {
                 width: 15px;
                 height: 15px;
                 margin-right: 7px;
-                background-color: #86daf3a6;
+                background-color: $clr8;
                 border-radius: 50%;
 
                 &.filled {
-                  background-color: #5bbedc;
+                  background-color: $clr2;
                 }
               }
             }
@@ -308,21 +307,18 @@ label {
 
           h4 {
             color: $clr2;
-            font-size: 18px;
           }
 
           h5 {
             color: $clr1;
-            font-size: 16px;
           }
 
           h6 {
             color: $clr4;
-            font-size: 14px;
           }
 
           .descrp {
-            font-size: 18px;
+            font-size: 13px;
             margin: 4px 0;
             color: $clr3;
           }
@@ -381,7 +377,7 @@ label {
     }
 
     a {
-      font-size: 18px;
+      font-size: 16px;
     }
     h5 {
       font-size: 20px;
@@ -416,9 +412,14 @@ label {
   }
 
   .descrp {
-    font-size: 18px;
+    font-size: 13px;
     margin: 4px 0;
     color: $clr3;
+  }
+}
+#proj-body{
+  a{
+    color: #5bbedc;
   }
 }
 @media screen and (max-width: 676px) {
@@ -445,7 +446,7 @@ label {
               width: 100% !important;
 
               span {
-                font-size: 16px;
+                font-size: 11px;
               }
             }
           }
